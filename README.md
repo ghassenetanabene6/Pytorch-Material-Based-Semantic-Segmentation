@@ -38,7 +38,8 @@ Graduation internship at the Hydrogen Research Institute (University of Quebec)
 ## Author 
 - **Ghassene TANABENE** : ghassene.tanabene@gmail.com | <a href="https://www.linkedin.com/in/ghassene-tanabene/">Linkedin</a>
 <hr>
-## :round_pushpin: Requirements
+
+## 📍 Requirements
 
 ```shell
 !pip install -r requirements.txt
@@ -101,7 +102,7 @@ HRIM2021/
 │       ├── val.txt
 │       ├── test.txt
 │       └── trainval.txt
-
+└──
   ```  
   
 ## Data Quality Improvement
@@ -391,6 +392,10 @@ pytorch-template/
 ```
 
 <hr>
+
+**Important** :
+
+For confidentiality obligations, we cannot share the entire source code, our dataset and the models checkpoints. 
 
 📅 **Last Update On** : September 2021.
 
