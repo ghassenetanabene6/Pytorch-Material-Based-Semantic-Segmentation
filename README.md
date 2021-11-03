@@ -369,7 +369,14 @@ pytorch-template/
     ├── palette.py - RGB color codes of the dataset 
     └── ...
 ```
-  
 
-## 📍 References : 
-- In this project, we used the models implementation of <a href="https://github.com/yassouali/pytorch-segmentation">yassouali</a>, and we adapted it to our custom use case : **Semantic Segmentation of an Indoor Environment Based on Material Textures**.
+<hr>
+
+📅 **Last Update On** : September 2021.
+
+
+✉️ **Contact :**
+
+email : ghassene.tanabene@gmail.com
+
+linkedin : https://www.linkedin.com/in/ghassene-tanabene/
