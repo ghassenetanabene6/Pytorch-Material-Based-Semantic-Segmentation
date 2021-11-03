@@ -1,0 +1,9 @@
+0	__background__
+1	ceramic
+2	fabric
+3	glass
+4	metal
+5	paper
+6	plastic
+7	stone
+8	wood

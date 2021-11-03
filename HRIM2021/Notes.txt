@@ -1,0 +1,13 @@
+HRIM2021 is the last version of our custom dataset used to train and improve the final results.
+
+It is composed of 15315 images from : 
+
+- The first "HRIM2021-Dataset-279-images" that are augmented (x27) in this large dataset.
+- Other images obtained after doing web scraping from the official website of "opensurfaces" and automatically annotated with the file : "utils/synthetic_mask.py".
+- Images selected from the MINC segmentation dataset. 
+
+
+The SegmentationClass Folder contains the annotations. 
+The JPEGImages contains the original images that are not all annotated.
+
+Please verify that the images sets for training and validation are annotated before to avoid any existence error.
