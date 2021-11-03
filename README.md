@@ -57,11 +57,12 @@ Our custom data is collected from various resources : <br>
 
 ### Data Annotation :
 
-The first step for data preparation is the pixel-wise labeling of the gathered images. In this work, we used polygonal annotations to delineate the boundaries of the material textures. There are many online annotation tools : <br>
+The first step for data preparation is the pixel-wise labeling of the gathered images. In this work, we used polygonal annotations to delineate the boundaries of the material textures. There are many free online annotation tools : <br>
 - <a href="https://cvat.org/">CVAT</a> <br>
 - <a href="https://app.hasty.ai/">hasty.ai <br>
 - <a href="https://segments.ai/">segments.ai</a> <br>
 - <a href="https://app.superannotate.com/">Super Annotate</a> <br>
+ 
 We used <a href="https://cvat.org/">CVAT</a> as shown below : 
 
  <img src="./documentation/Images/Annotation.gif">
