@@ -24,8 +24,8 @@ Graduation internship at the Hydrogen Research Institute (University of Quebec)
 📍 𝐊𝐞𝐲𝐰𝐨𝐫𝐝𝐬 : Deep Learning, Semantic Segmentation, Material Textures, Cloud Computing (AWS SageMaker), ROS/Gazebo (Robotics), Data Preparation, DeepLabV3+, PSPNet, SegNet, U-Net, ResNet, Xception
 
 📓 **Paper** : <a href="./documentation/Report - French Version/Rapport du Projet de fin d'études - Ghassene TANABENE.pdf"> Report.pdf</a> or <a href="https://drive.google.com/file/d/19wjBXv4n0BilmPU7iLahStYc5Wv9sSnQ/view?usp=sharing">Link</a>.
-<hr>
-📓 **Presentation** : <a href="./documentation/Présentation Finale PFE.pdf"> Report.pdf</a> or <a href="https://drive.google.com/file/d/11_VYwIZ1BthUMKiiPY8k4HI_LArE8vhZ/view?usp=sharing">Link</a>.
+
+📓 <b>Presentation</b> : <a href="./documentation/Présentation Finale PFE.pdf"> Presentation.pdf</a> or <a href="https://drive.google.com/file/d/11_VYwIZ1BthUMKiiPY8k4HI_LArE8vhZ/view?usp=sharing">Link</a>.
 <hr>
 
 ## Table of contents
@@ -37,6 +37,7 @@ Graduation internship at the Hydrogen Research Institute (University of Quebec)
 
 ## Author 
 - **Ghassene TANABENE** : ghassene.tanabene@gmail.com | <a href="https://www.linkedin.com/in/ghassene-tanabene/">Linkedin</a>
+<hr>
 ## :round_pushpin: Requirements
 
 ```shell
