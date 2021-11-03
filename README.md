@@ -318,7 +318,7 @@ This step is implemented to be used on google colab where images will be automat
   ### Palette 
   In this work, we are using only 8 material classes that are the most widespread in indoor environments since the preparation of more specific categories is very time consuming. Considering the time limitation, we regrouped some specific types of materials to general classes ( e.g. : leather belongs to fabric class), and we adopt this palette to describe the segmentation classes :
 
-  <img src=".documentation/Images/HRIM2021_Palette.png">
+  <img src="./documentation/Images/HRIM2021_Palette.png">
   
  The RGB color codes are written in this file : ```./utils/palette.py```
   
@@ -331,10 +331,18 @@ This step is implemented to be used on google colab where images will be automat
   ```shell
   --mode         Mode to be used, choose either `multiscale` or `sliding` for inference (multiscale is the default behaviour).
   ```
-  
-  This is a simple test on the Hydrogen Research Institute indoor environment, done after training a very small dataset with the model **Deeplabv3+** using **Resnet34** as a backbone. 
-  
-  <center><img src="./documentation/Images/demo1-deeplabv3+Resnet34.gif"></center>
+ ### Results
+ The training and result details are explained in the <a href="https://drive.google.com/file/d/19wjBXv4n0BilmPU7iLahStYc5Wv9sSnQ/view?usp=sharing">paper</a>. We did 4 experimentations using different models and backbones.
+ 
+ <h3> Experimentation 3 </h3>
+ <img src="./documentation/Images/table3.png">
+ <h3> Experimentation 4 </h3>
+ 
+ <img src="./documentation/Images/table4.png">
+ 
+ This is a short test on the real indoor environment of the Hydrogen Research Institute with a trained **DeepLabV3+** model using **ResNet-101** as a backbone. The model is trained on our custom material dataset called "HRIM2021" achieving **83.2 % (Mean-IoU)** and **95.1 % (Mean Pixel Accuracy)**.
+
+  <center><img src="./output/demo1-best-model-deeplabv3+(Resnet101)-with-12K-samples"></center>
   
   ## 📍 Code Structure :
   
@@ -342,28 +350,34 @@ This step is implemented to be used on google colab where images will be automat
   
 ```  
 pytorch-template/
+│   
+├── HRIM2021  - our custom dataset
 │
 ├── train.py - main script to start training
 ├── inference.py - inference using a trained model
 ├── trainer.py - the main trained
-├── config.json - holds configuration for training
+│   
+├── configs
+│   ├── config.json - holds configuration for training
 │
 ├── base/ - abstract base classes
 │   ├── base_data_loader.py
 │   ├── base_model.py
-│   ├── base_dataset.py - All the data augmentations are implemented here
+│   ├── base_dataset.py - data augmentations are implemented here
 │   └── base_trainer.py
 │
 ├── dataloader/ - loading the data for different segmentation datasets
-│   ├── hrim.py
+│   ├── hrim.py     - dataloader of our custom dataset HRIM2021
 │   ├── label 
 │       └── hrim.txt
 │
-├── models/ - contains semantic segmentation models
+├── models/ - contains the implementation of semantic segmentation models 
+│
+├── pretrained/ - contains pretrained backbone models
 │
 ├── saved/
-│   ├── runs/ - trained models are saved here
-│   └── log/ - default logdir for tensorboard and logging output
+│   ├── model-Checkpoints/ - trained models are saved here
+│   └── run/ - default logdir for tensorboard and logging output
 │  
 └── utils/ - small utility functions
     ├── losses.py - losses used in training the model
