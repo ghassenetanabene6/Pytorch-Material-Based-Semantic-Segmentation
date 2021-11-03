@@ -192,7 +192,7 @@ This step is implemented to be used on google colab where images will be automat
   ```shell
   !python ./utils/synthetic_mask.py --segClass MateriaClass --images DataScraping/MateriaClass/JPEGMateriaClass --output DataScraping/material_class/maskMaterialClass
   ```
-
+<img src="./documentation/Images/data scraping.png">
   
 ## 📍 Training :
   
@@ -342,7 +342,7 @@ This step is implemented to be used on google colab where images will be automat
  
  This is a short test on the real indoor environment of the Hydrogen Research Institute with a trained **DeepLabV3+** model using **ResNet-101** as a backbone. The model is trained on our custom material dataset called "HRIM2021" achieving **83.2 % (Mean-IoU)** and **95.1 % (Mean Pixel Accuracy)**.
 
-  <center><img src="./output/demo1-best-model-deeplabv3+(Resnet101)-with-12K-samples"></center>
+  <center><img src="./output/demo1-best-model-deeplabv3+(Resnet101)-with-12K-samples.gif"></center>
   
   ## 📍 Code Structure :
   
