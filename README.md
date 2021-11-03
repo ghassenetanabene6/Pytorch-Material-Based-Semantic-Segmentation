@@ -23,6 +23,7 @@ Graduation internship at the Hydrogen Research Institute (University of Quebec)
 
 📍 𝐊𝐞𝐲𝐰𝐨𝐫𝐝𝐬 : Deep Learning, Semantic Segmentation, Material Textures, Cloud Computing (AWS SageMaker), ROS/Gazebo (Robotics), Data Preparation, DeepLabV3+, PSPNet, SegNet, U-Net, ResNet, Xception
 <hr>
+
 ## Table of contents
 - Data 
 - Training
