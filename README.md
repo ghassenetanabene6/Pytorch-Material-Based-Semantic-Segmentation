@@ -8,7 +8,21 @@ The segmentation of an indoor environment based on material textures is a state-
 However, we have proved in this work that semantic segmentation of materials can be done using information from images only through deep learning.
 The first tests showed promising results using the **DeeplabV3+** architecture with different backbones like **Resnet** 18, 34, 50, 101, 152 and **Xception** and also **PSPNet**. The work is still in progress and the results achieved can be optimized and much more improved.
 
+## Project Context : 
+Graduation internship at the Hydrogen Research Institute (University of Quebec)
 
+## The main tasks completed in 6 months : 
+
+- Research in the recent and the most relevant Deep Learning and Semantic Segmentation papers and reviews.
+- Data gathering
+- Annotation and preparation of our custom dataset.
+- Model training and testing using an Amazon Sagemaker notebook instance.
+- Comparing the chosen models performance (DeepLabV3+, PSPNet, U-Net, SegNet, FCN, GCN, UperNet) in our custom use case using different model backbones (ResNet-18, ResNet-34, ResNet-50, ResNet-101, ResNet-152, Xception).
+- Improving the best result with more data using the data scraping techniques and an automatic annotation algorithm using OpenCV.
+- Integration of our solution in the ROS/Gazebo simulation environment of the Hydrogen Research Institute's disinfectant robot.
+
+📍 𝐊𝐞𝐲𝐰𝐨𝐫𝐝𝐬 : Deep Learning, Semantic Segmentation, Material Textures, Cloud Computing (AWS SageMaker), ROS/Gazebo (Robotics), Data Preparation, DeepLabV3+, PSPNet, SegNet, U-Net, ResNet, Xception
+<hr>
 ## Table of contents
 - Data 
 - Training
