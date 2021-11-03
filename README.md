@@ -22,6 +22,9 @@ Graduation internship at the Hydrogen Research Institute (University of Quebec)
 - Integration of our solution in the ROS/Gazebo simulation environment of the Hydrogen Research Institute's disinfectant robot.
 
 📍 𝐊𝐞𝐲𝐰𝐨𝐫𝐝𝐬 : Deep Learning, Semantic Segmentation, Material Textures, Cloud Computing (AWS SageMaker), ROS/Gazebo (Robotics), Data Preparation, DeepLabV3+, PSPNet, SegNet, U-Net, ResNet, Xception
+
+📓 **Paper** : <a href="./documentation/Report - French Version/Rapport du Projet de fin d'études - Ghassene TANABENE.pdf"> Report.pdf</a> or <a href="https://drive.google.com/file/d/19wjBXv4n0BilmPU7iLahStYc5Wv9sSnQ/view?usp=sharing">Link</a>.
+<hr>
 <hr>
 
 ## Table of contents
