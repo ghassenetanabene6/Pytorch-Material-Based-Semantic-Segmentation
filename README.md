@@ -346,7 +346,7 @@ This step is implemented to be used on google colab where images will be automat
  
  This is a short test on the real indoor environment of the Hydrogen Research Institute with a trained **DeepLabV3+** model using **ResNet-101** as a backbone. The model is trained on our custom material dataset called "HRIM2021" achieving **83.2 % (Mean-IoU)** and **95.1 % (Mean Pixel Accuracy)**.
 
-  <center><img src="./output/demo1-best-model-deeplabv3+(Resnet101)-with-12K-samples.gif"></center>
+  <center><img src="./documentation/Diagrams & Results/demo1-Final-best-model-deeplabv3+.gif"></center>
   
   ## 📍 Code Structure :
   
@@ -392,6 +392,11 @@ pytorch-template/
 ```
 
 <hr>
+  ## 📍 Integration of our solution in the ROS/Gazebo simulation environment of the Hydrogen Research Institute's disinfectant robot :
+  
+ <img src="./documentation/Diagrams & Results/ROS-Integration/diagros1.png">
+ <img src="./documentation/Diagrams & Results/ROS-Integration/ROS1.png">
+ <img src="./documentation/Diagrams & Results/ROS-Integration/ROS4.png">
 
 **Important** :
 
