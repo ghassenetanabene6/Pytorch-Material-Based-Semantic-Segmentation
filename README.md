@@ -304,7 +304,7 @@ This step is implemented to be used on google colab where images will be automat
   ### Learning rate
   - **Poly learning rate**, where the learning rate is scaled down linearly from the starting value down to zero during training. Considered as the go to scheduler for semantic segmentaion (see Figure below).
   - **One Cycle learning rate**, for a learning rate LR, we start from LR / 10 up to LR for 30% of the training time, and we scale down to LR / 25 for remaining time, the scaling is done in a cos annealing fashion (see Figure bellow), the momentum is also modified but in the opposite manner starting from 0.95 down to 0.85 and up to 0.95, for more detail see the paper: <a href="https://arxiv.org/pdf/1708.07120.pdf">Super-Convergence</a>.
- <img src=".documentation/Images/learning_rates.png"></img>
+ <img src="./documentation/Images/learning_rates.png"></img>
   ### Visualizations 
   The log files will be saved in saved\runs and the .pth checkpoints in saved\, to monitor the training using tensorboard, please run:
   
