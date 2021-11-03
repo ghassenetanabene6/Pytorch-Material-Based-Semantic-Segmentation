@@ -25,6 +25,8 @@ Graduation internship at the Hydrogen Research Institute (University of Quebec)
 
 📓 **Paper** : <a href="./documentation/Report - French Version/Rapport du Projet de fin d'études - Ghassene TANABENE.pdf"> Report.pdf</a> or <a href="https://drive.google.com/file/d/19wjBXv4n0BilmPU7iLahStYc5Wv9sSnQ/view?usp=sharing">Link</a>.
 <hr>
+📓 **Presentation** : <a href="./documentation/Présentation Finale PFE.pdf"> Report.pdf</a> or <a href="https://drive.google.com/file/d/11_VYwIZ1BthUMKiiPY8k4HI_LArE8vhZ/view?usp=sharing">Link</a>.
+<hr>
 
 ## Table of contents
 - Data 
@@ -98,7 +100,7 @@ HRIM2021/
 │       ├── val.txt
 │       ├── test.txt
 │       └── trainval.txt
-│
+
   ```  
   
 ## Data Quality Improvement
@@ -133,7 +135,7 @@ To prepare augmented data, we can simply run:
   ```shell
 !python ./utils/data_augmentation.py  --JPEGImages path_to_images_folder  --SegmentationClass path_to_png_masks_folder  --output output_folder
 ```
-This augmentation is done before starting the training step. If we want to make it implicitly after loading data, we should make some modifications in the code.
+This augmentation is done before starting the training step. If we want to make it implicitly after loading data, we can use the functions defined in ```./base/base_dataset.py```.
 
  ### Data Scraping : 
   
