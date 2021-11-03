@@ -25,7 +25,6 @@ Graduation internship at the Hydrogen Research Institute (University of Quebec)
 
 📓 **Paper** : <a href="./documentation/Report - French Version/Rapport du Projet de fin d'études - Ghassene TANABENE.pdf"> Report.pdf</a> or <a href="https://drive.google.com/file/d/19wjBXv4n0BilmPU7iLahStYc5Wv9sSnQ/view?usp=sharing">Link</a>.
 <hr>
-<hr>
 
 ## Table of contents
 - Data 
