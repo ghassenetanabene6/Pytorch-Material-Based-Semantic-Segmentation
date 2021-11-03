@@ -305,7 +305,7 @@ This step is implemented to be used on google colab where images will be automat
   ### Learning rate
   - **Poly learning rate**, where the learning rate is scaled down linearly from the starting value down to zero during training. Considered as the go to scheduler for semantic segmentaion (see Figure below).
   - **One Cycle learning rate**, for a learning rate LR, we start from LR / 10 up to LR for 30% of the training time, and we scale down to LR / 25 for remaining time, the scaling is done in a cos annealing fashion (see Figure bellow), the momentum is also modified but in the opposite manner starting from 0.95 down to 0.85 and up to 0.95, for more detail see the paper: <a href="https://arxiv.org/pdf/1708.07120.pdf">Super-Convergence</a>.
- <img src="./Images/learning_rates.png"></img>
+ <img src=".documentation/Images/learning_rates.png"></img>
   ### Visualizations 
   The log files will be saved in saved\runs and the .pth checkpoints in saved\, to monitor the training using tensorboard, please run:
   
@@ -313,14 +313,13 @@ This step is implemented to be used on google colab where images will be automat
 !tensorboard --logdir saved
 
   ```
-  <img src="./Images/tensorboard.png">
 
 ## 📍 Inference
   
   ### Palette 
   In this work, we are using only 8 material classes that are the most widespread in indoor environments since the preparation of more specific categories is very time consuming. Considering the time limitation, we regrouped some specific types of materials to general classes ( e.g. : leather belongs to fabric class), and we adopt this palette to describe the segmentation classes :
 
-  <img src="./Images/HRIM2021_Palette.png">
+  <img src=".documentation/Images/HRIM2021_Palette.png">
   
  The RGB color codes are written in this file : ```./utils/palette.py```
   
@@ -336,7 +335,7 @@ This step is implemented to be used on google colab where images will be automat
   
   This is a simple test on the Hydrogen Research Institute indoor environment, done after training a very small dataset with the model **Deeplabv3+** using **Resnet34** as a backbone. 
   
-  <center><img src="./Images/demo1-deeplabv3+Resnet34.gif"></center>
+  <center><img src="./documentation/Images/demo1-deeplabv3+Resnet34.gif"></center>
   
   ## 📍 Code Structure :
   
