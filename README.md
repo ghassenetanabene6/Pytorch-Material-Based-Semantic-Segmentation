@@ -64,7 +64,8 @@ The first step for data preparation is the pixel-wise labeling of the gathered i
 - <a href="https://app.superannotate.com/">Super Annotate</a> <br>
 We used <a href="https://cvat.org/">CVAT</a> as shown below : 
 
-  ....
+ <img src="./documentation/Images/Annotation.gif">
+
 ### Dataset : 
   #### HRIM2021 (Hydrogen Research Institute Materials 2021)
 
@@ -402,7 +403,7 @@ pytorch-template/
 
 <hr>
 
-**Important** :
+📢 **Important** :
 
 For confidentiality obligations, we cannot share the entire source code, our dataset and the models checkpoints. 
 
