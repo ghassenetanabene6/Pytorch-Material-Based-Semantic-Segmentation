@@ -269,7 +269,7 @@ This step is implemented to be used on google colab where images will be automat
         "type": "SGD",
         "differential_lr": true,
         "args":{
-            "lr": 0.01,
+            "lr": 0.001,
             "weight_decay": 1e-4,
             "momentum": 0.9
         }
@@ -393,6 +393,7 @@ pytorch-template/
 ```
 
 <hr>
+
   ## 📍 Integration of our solution in the ROS/Gazebo simulation environment of the Hydrogen Research Institute's disinfectant robot :
   
  <img src="./documentation/Diagrams & Results/ROS-Integration/diagros1.png">
