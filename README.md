@@ -104,6 +104,7 @@ HRIM2021/
 │       └── trainval.txt
 └──
   ```  
+<img src="./documentation/Images/HRIM2021.png">
   
 ## Data Quality Improvement
 To achieve a good result, we need to improve the quality of the data. For this reason, we use augmention for images and masks to avoid overfitting, and data balancing.
@@ -345,8 +346,8 @@ This step is implemented to be used on google colab where images will be automat
  <img src="./documentation/Images/table4.png">
  
  This is a short test on the real indoor environment of the Hydrogen Research Institute with a trained **DeepLabV3+** model using **ResNet-101** as a backbone. The model is trained on our custom material dataset called "HRIM2021" achieving **83.2 % (Mean-IoU)** and **95.1 % (Mean Pixel Accuracy)**.
-
-  <center><img src="./documentation/Diagrams & Results/demo1-Final-best-model-deeplabv3+.gif"></center>
+ 
+ <img src="./documentation/Diagrams & Results/Results/demo1-Final-best-model-deeplabv3+.gif">
   
   ## 📍 Code Structure :
   
@@ -397,6 +398,8 @@ pytorch-template/
  <img src="./documentation/Diagrams & Results/ROS-Integration/diagros1.png">
  <img src="./documentation/Diagrams & Results/ROS-Integration/ROS1.png">
  <img src="./documentation/Diagrams & Results/ROS-Integration/ROS4.png">
+
+<hr>
 
 **Important** :
 
