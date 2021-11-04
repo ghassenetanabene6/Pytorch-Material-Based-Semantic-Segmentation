@@ -109,7 +109,7 @@ HRIM2021/
 <img src="./documentation/Images/HRIM2021.png">
   
 ## Data Quality Improvement
-To achieve a good result, we need to improve the quality of the data. For this reason, we use augmention for images and masks to avoid overfitting, and data balancing.
+To achieve a good result, we need to improve the quality of the data. For this reason, we used augmention techniques for semantic segmentation task to avoid overfitting, and we tried to balance the data.
 ### Data augmentation :
 
 Data augmentation in data analysis are techniques used to increase the amount of data by adding slightly modified copies of already existing data or newly created synthetic data from existing data. It acts as a regularizer and helps reduce overfitting when training a machine learning model.<br>
@@ -195,7 +195,7 @@ This step is implemented to be used on google colab where images will be automat
   }
   ``` 
   #### Synthetic masks
-  you can annotate the scraped images using this command : 
+  We can annotate the scraped images using this command line : 
   ```shell
   !python ./utils/synthetic_mask.py --segClass MateriaClass --images DataScraping/MateriaClass/JPEGMateriaClass --output DataScraping/material_class/maskMaterialClass
   ```
@@ -330,7 +330,7 @@ This step is implemented to be used on google colab where images will be automat
  The RGB color codes are written in this file : ```./utils/palette.py```
   
   ### Test 
-  For inference, we need a PyTorch trained model ```./saved/model/checkpoint.pth```, the images we would like to segment and the same configuration used in the training  ```./saved/model/date/config.json```. Then we run this line command : 
+  For inference, we need a PyTorch trained model ```./saved/model/checkpoint.pth```, the images we would like to segment and the same configuration used in the training  ```./saved/model/date/config.json```. Then we run this command line : 
 ```shell
   !python inference.py --config path_to_config.json --model path_to_model.pth --images images_folder --output output_folder
   ```
