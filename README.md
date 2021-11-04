@@ -33,7 +33,7 @@ Graduation internship at the Hydrogen Research Institute (University of Quebec)
 - Training
 - Inference
 - Code Structure
-- References
+- Integration
 
 ## Author 
 - **Ghassene TANABENE** : ghassene.tanabene@gmail.com | <a href="https://www.linkedin.com/in/ghassene-tanabene/">Linkedin</a>
