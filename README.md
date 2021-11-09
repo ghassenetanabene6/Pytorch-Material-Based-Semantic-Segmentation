@@ -1,7 +1,7 @@
 # Pytorch-Material-Based-Semantic-Segmentation
 
 ## Introduction
-Semantic image segmentation is the ability of the machine to understand the semantic meaning of every pixel in the image. The previous research has focused mainly on segmenting objects in general context such as humans, animals, cars, ... (e.g. **Pascal-VOC2012** dataset)
+Semantic image segmentation is the ability of the machine to understand the semantic meaning of every pixel in the image. The previous research has focused mainly on segmenting objects in general context such as humans, animals, cars, ... (e.g. **Pascal-VOC2012** dataset).
 <br>
 
 The segmentation of an indoor environment based on material textures is a state-of-the-art of many recent researches since its complexity such as **MINC** solution. In fact, due to many problems in this specific context, like similarity between materials' appearance, images are sometimes insufficient to differentiate them especially when they are painted in real life. The resemblance sometimes gives a need to use additional information such as the stiffness of the material by using other components such as haptic sensors.<br>
