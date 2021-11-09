@@ -7,7 +7,7 @@ Semantic image segmentation is the ability of the machine to understand the sema
 The segmentation of an indoor environment based on material textures is a state-of-the-art of many recent researches since its complexity such as **MINC** solution. In fact, due to many problems in this specific context, like similarity between materials' appearance, images are sometimes insufficient to differentiate them especially when they are painted in real life. The resemblance sometimes gives a need to use additional information such as the stiffness of the material by using other components such as haptic sensors.<br>
 
 However, we have proved in this work that semantic segmentation of materials can be done using the visual aspect (images) through deep learning.
-The first tests showed promising results using the **DeeplabV3+** architecture with different backbones like **Resnet** 18, 34, 50, 101, 152 and **Xception** and also **PSPNet**. The work is still in progress and the results achieved can be optimized and much more improved.
+The first tests showed promising results using **DeeplabV3+** with different backbones like **ResNet** 18, 34, 50, 101, 152 and **Xception**. **PSPNet** is also interesting to use in this task. The work is still in progress and the results achieved can be optimized and much more improved.
 
 ## Project Context : 
 Graduation internship at the Hydrogen Research Institute (University of Quebec)
