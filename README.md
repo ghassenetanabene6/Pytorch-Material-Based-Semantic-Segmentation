@@ -363,7 +363,7 @@ pytorch-template/
 │
 ├── train.py - main script to start training
 ├── inference.py - inference using a trained model
-├── trainer.py - the main trained
+├── trainer.py - the main trainer
 │   
 ├── configs
 │   ├── config.json - holds configuration for training
