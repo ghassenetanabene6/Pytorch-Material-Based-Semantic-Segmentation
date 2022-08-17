@@ -13,7 +13,7 @@ The first tests showed promising results using **DeeplabV3+** with different bac
 ## Project Context : 
 Graduation internship at the Hydrogen Research Institute (University of Quebec)
 
-## The main tasks completed in 6 months : 
+## The main tasks : 
 
 - Research in the recent and the most relevant Deep Learning and Semantic Segmentation papers and reviews.
 - Data gathering
