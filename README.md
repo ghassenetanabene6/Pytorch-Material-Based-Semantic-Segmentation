@@ -10,9 +10,6 @@ The segmentation of an indoor environment based on material textures is a state-
 However, we have proved in this work that semantic segmentation of materials can be done using the visual aspect (images) through deep learning.
 The first tests showed promising results using **DeeplabV3+** with different backbones like **ResNet** 18, 34, 50, 101, 152 and **Xception**. **PSPNet** is also interesting to use in this task. The work is still in progress and the results achieved can be optimized and much more improved.
 
-## Project Context : 
-Graduation internship at the Hydrogen Research Institute (University of Quebec)
-
 ## The main tasks : 
 
 - Research in the recent and the most relevant Deep Learning and Semantic Segmentation papers and reviews.
