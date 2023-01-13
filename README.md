@@ -405,7 +405,7 @@ pytorch-template/
 
 📢 **Important** :
 
-For confidentiality obligations, we cannot share the entire source code, our dataset and the models checkpoints. 
+Due to confidentiality obligations, we are unable to share the complete source code, dataset, and models checkpoints.
 
 📅 **Last Update On** : September 2021.
 
